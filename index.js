@@ -60,3 +60,7 @@ console.log(filterPizzas);
 pizzas.forEach((pizzas) => {
   console.log(`La pizza ${pizzas.nombre} sale $ ${pizzas.precio}`);
 });
+
+const pizzasIngredientes = pizzas.forEach((pizzas) => {
+  console.log(`La ${pizzas.nombre} esta hecha con ${pizzas.ingredientes}`);
+});
